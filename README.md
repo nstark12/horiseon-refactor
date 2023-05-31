@@ -14,7 +14,7 @@ To use the Horiseon homepage, click on any link the navigation bar to be directe
 
 View screenshot of webpage below:
 
-![alt text](assets/images/01-html-css-git-homework-demo.png)
+![screenshot of Horiseon homepage](./assets/images/01-html-css-git-homework-demo.png)
 
 ## Credits
 
