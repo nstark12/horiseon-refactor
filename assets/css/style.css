@@ -1,9 +1,11 @@
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* element selectors edit the entire body and all links and paragraphs */
 body {
     background-color: #d9dcd6;
 }
@@ -17,19 +19,20 @@ p {
     font-size: 16px;
 }
 
-.header {
+/* element selectors edit the header and navigation */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -50,6 +53,19 @@ nav ul li {
     margin-left: 25px;
 }
 
+/* element selectors are used to edit the footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+/* class selectors are used to edit the remainder of the webpage */
 .hero {
     height: 800px;
     width: 100%;
@@ -118,15 +134,4 @@ nav ul li {
 .card h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h3 {
-    font-size: 20px;
 }
