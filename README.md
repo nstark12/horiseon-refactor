@@ -16,6 +16,9 @@ View screenshot of webpage below:
 
 ![screenshot of Horiseon home page](./assets/images/01-html-css-git-homework-demo.png)
 
+Webpage link: 
+https://nstark12.github.io/horiseon-refactor/ 
+
 ## Credits
 
 N/A
