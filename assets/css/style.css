@@ -27,15 +27,18 @@ header {
     color: #ffffff;
 }
 
+/* selects the h1 in the header and changes the font-size and display */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the color of a specific part 'seo' in the logo */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* styles the overall nav section */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,10 +47,12 @@ nav {
     font-size: 20px;
 }
 
+/* removes list type from the unordered list (bullet points removed) */
 nav ul {
     list-style-type: none;
 }
 
+/* adds styling to each nav item */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -61,11 +66,14 @@ footer {
     text-align: center;
 }
 
+/* sets a font-size in the footer */
 footer h3 {
     font-size: 20px;
 }
 
 /* class selectors are used to edit the remainder of the webpage */
+
+/* styles the hero section of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,22 +83,26 @@ footer h3 {
     background-position: center;
 }
 
+/* positions elements with this class to the left of the page */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* position elements with this class to the right of the page */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* styles the main content of the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styles the benefits section of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,22 +114,26 @@ footer h3 {
     background-color: #2589bd;
 }
 
+/* styles the sings benefit section of the page */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* styles the heading of the benefit section */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* image styling in the benefit section */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* styles each card */
 .card {
     margin-bottom: 20px;
     padding: 50px;
@@ -127,10 +143,12 @@ footer h3 {
     color: #ffffff;
 }
 
+/* styles the image in each card */
 .card img {
     max-height: 200px;
 }
 
+/* styles the heading of each card */
 .card h2 {
     margin-bottom: 20px;
     font-size: 36px;
